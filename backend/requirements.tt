@@ -1,0 +1,17 @@
+# Web Server
+fastapi
+uvicorn
+python-dotenv
+python-multipart
+
+# AI & RAG
+langchain
+langchain-community
+langchain-google-genai  # Use this if using Gemini
+# langchain-openai      # Uncomment if using OpenAI instead
+
+# PDF & Vector Processing
+pypdf
+faiss-cpu
+sentence-transformers
+ticker  # For progress bars during embedding
