@@ -14,6 +14,6 @@ def extract_text_from_pdf(pdf_path):
     return raw_text
 
 if __name__ == "__main__":
-    path = os.path.join("data", "knowlwdge.pdf")
+    path = os.path.join("data", "knowledge.pdf")
     text = extract_text_from_pdf(path)
     print(f"Extracted {len(text)} characters from {path}")
